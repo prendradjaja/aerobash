@@ -1,0 +1,251 @@
+# HEAD
+body head
+pos 1 0 1
+radius 0.3
+
+# NECK
+joint neck
+pos 1 0 1
+range 0 0
+
+# RUDDER
+body groin
+sides 0.1 0.5 0.5
+pos 1 2.25 1.5
+
+# BODY
+	body breast
+	shape cylinder
+	sides 0.3 1
+	rot 90 0 0
+	pos 1 1 1
+
+	joint chest
+	range 0 0
+	radius 0.2
+	pos 1 1 1
+
+	body chest
+	shape cylinder
+	sides 0.3 1
+	rot 90 0 0
+	pos 1 2 1
+
+	joint lumbar
+	range 0 0
+	radius 0.2
+	pos 1 2 1
+
+# WINGS
+	# L WING
+	joint l_pecs
+	range 0 0
+	pos 1.2 0.5 1
+	radius 0.15
+
+	body l_pecs
+	pos 2.1 0.5 1
+	sides 2.1 1 0.2
+
+	# R WING
+	joint r_pecs
+	range 0 0
+	pos 0.8 0.5 1
+	radius 0.15
+
+	body r_pecs
+	pos -0.1 0.5 1
+	sides 2.1 1 0.2
+
+	# BACK WING
+	body stomach
+	sides 2 0.75 0.2
+	pos 1 2.25 1
+
+	joint abs
+	range 0 0
+	radius 0.2
+	pos 1 2.25 1
+
+# MISSILES
+	joint l_shoulder
+	range 0 0
+	pos 1.5 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body l_biceps
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 1.5 0.5 0.7
+	flag 38
+	
+	joint r_shoulder
+	range 0 0
+	pos 0.5 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body r_biceps
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 0.5 0.5 0.7
+	flag 38
+	
+	joint l_elbow
+	range 0 0
+	pos 1.75 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body l_triceps
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 1.75 0.5 0.7
+	flag 38
+	
+	joint r_elbow
+	range 0 0
+	pos 0.25 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body r_triceps
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 0.25 0.5 0.7
+	flag 38
+	
+	joint l_wrist
+	range 0 0
+	pos 2 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body l_hand
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 2 0.5 0.7
+	flag 38
+	
+	joint r_wrist
+	range 0 0
+	pos 0 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body r_hand
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 0 0.5 0.7
+	flag 38
+	
+	joint l_glute
+	range 0 0
+	pos 2.25 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body l_butt
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 2.25 0.5 0.7
+	flag 38
+	
+	joint r_glute
+	range 0 0
+	pos -0.25 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body r_butt
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos -0.25 0.5 0.7
+	flag 38
+	
+	joint l_hip
+	range 0 0
+	pos 2.5 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body l_thigh
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 2.5 0.5 0.7
+	flag 38
+	
+	joint r_hip
+	range 0 0
+	pos -0.5 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body r_thigh
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos -0.5 0.5 0.7
+	flag 38
+	
+	joint l_knee
+	range 0 0
+	pos 2.5 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	joint r_knee
+	range 0 0
+	pos -0.5 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body l_leg
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 2.75 0.5 0.7
+	flag 38
+	
+	joint l_ankle
+	range 0 0
+	pos 2.75 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body r_leg
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos -0.75 0.5 0.7
+	flag 38
+	
+	joint r_ankle
+	range 0 0
+	pos -0.75 0.5 0.7
+	radius 0.08
+	flag 38
+	
+	body l_foot
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos 3 0.5 0.7
+	flag 38
+	
+	body r_foot
+	shape cylinder
+	sides 0.1 0.3
+	rot 90 0 0
+	pos -1 0.5 0.7
+	flag 38
